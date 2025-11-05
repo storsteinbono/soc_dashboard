@@ -39,6 +39,7 @@ export function Sidebar() {
   ]
 
   const edrTools = [
+    { href: '/mde', icon: '🛡️', label: 'Microsoft Defender' },
     { href: '/limacharlie', icon: '🦎', label: 'LimaCharlie' },
   ]
 

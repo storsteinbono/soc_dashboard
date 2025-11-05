@@ -1,0 +1,13 @@
+import { Dashboard } from '@/components/Dashboard'
+import { Sidebar } from '@/components/Sidebar'
+
+export default function Home() {
+  return (
+    <div className="flex min-h-screen">
+      <Sidebar />
+      <main className="flex-1 ml-64 p-8">
+        <Dashboard />
+      </main>
+    </div>
+  )
+}
